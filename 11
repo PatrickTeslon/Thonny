@@ -1,0 +1,14 @@
+k1 = float(input("Sisestage x: "))
+k2=float(input("Sisestage y: "))
+if (k1>0) and (k2>0):
+    print("Punkt asub 1. veerandis")
+if (k1>0) and (k2<0):
+    print("Punkt asub 2. veerandis")
+if (k1<0) and (k2>0):
+    print("Punkt asub 3. veerandis")
+if (k1<0) and (k2<0):
+    print("Punkt asub 4. veerandis")
+if (k1 == 0):
+    print("Punkt asub x-teljel")
+if (k2 ==0):
+    print("Punkt asub y-teljel")
