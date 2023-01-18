@@ -1,0 +1,17 @@
+oige_pin = "1234"
+korrad = 0
+
+while korrad < 3:
+    sisestatud_pin = input("Palun sisestage oma 4 kohaline pin kood: ")
+
+
+    if sisestatud_pin == oige_pin:
+        print("Õige pin kood")
+        break
+    else:
+        korrad += 1
+        print("Vale pin kood. Järelejäänud katsete arv:", 3 - korrad)
+
+
+if korrad == 3:
+    print("Kaart lukustatud")
